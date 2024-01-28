@@ -14,6 +14,7 @@
     macros {
         tmux_tabn: tmux_tabn {
             compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL >
                 , <&macro_tap &kp A>
@@ -23,6 +24,7 @@
         };
         tmux_tabp: tmux_tabp {
             compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL >
                 , <&macro_tap &kp A>
