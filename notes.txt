@@ -1,0 +1,9 @@
+keycodes: https://zmk.dev/docs/codes
+
+google doc with keyboard layout (dtc.kay@gmail.com)
+https://docs.google.com/spreadsheets/d/1TfzyUDv-1ZO2CYTEfmYO0A2tYieGg_SQ56L20ZPGty0/edit#gid=0
+
+https://github.com/kai11/lily58-wireless-no-nanoview/
+
+To flash the firmware, first put your board into bootloader mode by double clicking the reset button (either on the MCU board itself, or the one that is part of your keyboard). The controller should appear in your OS as a new USB storage device.
+
